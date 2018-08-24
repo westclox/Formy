@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="formy" preserve-order="true">
+<test name="Plural" verbose="2" parallel="classes" thread-count="1">
+	<!--packages>
+		<package name="qacd.formy.demo.*"></package>
+	</packages -->
+	<classes>
+		<class name="qacd.formy.demo.FormSubmissionWithPageObject">
+		</class>
+	</classes>
+</test>
+</suite>
